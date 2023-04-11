@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quiz</h1>
+      <form>
+        <h2>Question 1:</h2>
+        <p>What is the capital of France?</p>
+        <input type="radio" name="q1" value="a">a. London<br>
+        <input type="radio" name="q1" value="b">b. Paris<br>
+        <input type="radio" name="q1" value="c">c. Berlin<br>
+        
+        <h2>Question 2:</h2>
+        <p>What is the largest continent?</p>
+        <input type="radio" name="q2" value="a">a. Africa<br>
+        <input type="radio" name="q2" value="b">b. Europe<br>
+        <input type="radio" name="q2" value="c">c. Asia<br>
+        
+        <h2>Question 3:</h2>
+        <p>What is the highest mountain in the world?</p>
+        <input type="radio" name="q3" value="a">a. Mount Everest<br>
+        <input type="radio" name="q3" value="b">b. Mount Kilimanjaro<br>
+        <input type="radio" name="q3" value="c">c. Mount Fuji<br>
+        
+        <button type="submit" onclick="submitAnswers()">Submit</button>
+      </form>
+      
+      <div id="score"></div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
